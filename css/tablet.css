@@ -1,0 +1,17 @@
+/*.main-tables-container {
+    display: flex;
+    width: 930px;       este estilo se aplica en caso de no
+    margin: 0 auto;     tener el scroll horizontal en esta seccion
+} */ 
+
+.product-cards--container { /* creamos dos columnas en la secciond de las tarjetas */
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.plans-container--slider { /* centramos las tarjetas de los planes */
+    justify-content: center;
+}
+
